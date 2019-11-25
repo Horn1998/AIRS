@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: pyclient
+Version: 0.0.1
+Summary: Building blocks for Python client libraries.
+Home-page: https://github.com/Stranger6667/pyclient
+Author: Dmitry Dygalo
+Author-email: dadygalo@gmail.com
+License: MIT
+Keywords: python,api,client
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: requests
+
+UNKNOWN
+
+

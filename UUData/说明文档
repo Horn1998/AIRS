@@ -1,0 +1,14 @@
+目录结构:
+        Data_Process(数据处理)
+        DBImport(数据导入):
+                                Documents_Es:文档分类索引创建
+                                                 documents_Init:将所有的文档存入elasticsearch中，document(keywords, filename, content)
+                                                 bulk_Import:批量导入文档内容
+                                                 keywords_Init:倒排索引表创建
+                                                 stopword_Init:停用词表创建
+                                Documents_Mongo:Mongo数据库创建
+        DBExport(数据导出):
+
+
+
+http://127.0.0.1:9200/_cat/indices/test1?v  #查看当前索引信息

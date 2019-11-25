@@ -1,0 +1,4 @@
+Config(存取配置信息，不包含逻辑):
+                                Elasticsearch:elasticsearch配置信息
+                                Mongodb:mongodb配置信息
+                                TextProcessingEngine:文件搜索引擎配置信息

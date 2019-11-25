@@ -1,0 +1,22 @@
+用于多项式模型的朴素贝叶斯分类器
+    多项式朴素贝叶斯分类器是一种非常适合于用离散特征(例如文本分类的字数)的分类器
+    多项式分布通常需要整数特征计数。然而,
+    在实践中，诸如tf-idf这样的分数计数也可能起作用。
+
+常用参数：
+    alpha:      float       拉普拉斯平滑参数
+    fit_prior:  boolean     是否学习先验概率，如果为False,则使用统一的先验概率
+
+举例：
+    Examples
+    --------
+    >>> import numpy as np
+    >>> X = np.random.randint(5, size=(6, 100))                 #数组大小 6 * 100 ， 值为0-4之间的随机值
+    >>> y = np.array([1, 2, 3, 4, 5, 6])                        #将六个数组分别对应6个结果值
+    >>> from sklearn.naive_bayes import MultinomialNB
+    >>> clf = MultinomialNB()
+    >>> clf.fit(X, y)                                           #训练集匹配
+    MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
+    >>> print(clf.predict(X[2:3]))                              #预测对象为二维数组，预测结果为3
+
+
