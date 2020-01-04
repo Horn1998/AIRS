@@ -5,10 +5,10 @@ from elasticsearch import helpers
 import datetime
 import jieba
 import os
-Data_BasePath = DataBasePath['DataBasePath']
+Data_BasePath = DataBasePath
 
 # 文件批量导入type
-def bulk_import(es, index_name='test', type_name = 'test', data_list=[]):
+def bulk_import(es, index_name='test', data_list=[]):
     index = index_name
     actions = []
     for data in data_list:
@@ -33,19 +33,20 @@ def bulk_import(es, index_name='test', type_name = 'test', data_list=[]):
 
 
 #将所有文档存储到elasticsearch
-def documents_Init(Data_BasePath, index_name = 'test'):
+def documents_Init(DataBasePath, index_name = 'test'):
     '''
     在index_name数据库下创建表并添加数据
     :param Data_BasePath: 数据文件夹根目录
     :param index_name:    数据库名称
     :return:
     '''
+    print('将所有文档存储到elasticsearch')
     es = connect_Elasticsearch()
-    indexnames = os.listdir(Data_BasePath)
+    indexnames = os.listdir(DataBasePath)
     print(datetime.datetime.now())
     save_dict = []
     for name in indexnames:
-        ChildPath = Data_BasePath + '\\' + name                 #获得当前索引类别对应的文件夹
+        ChildPath = DataBasePath + '\\' + name                 #获得当前索引类别对应的文件夹
         txt_files = fp.TXT_Process(ChildPath)                    #获取当前子目录下的txt文件列表
         for file in txt_files:
             content = fp.readFile(file)                             #io阻塞
@@ -53,11 +54,12 @@ def documents_Init(Data_BasePath, index_name = 'test'):
             cutResult = jieba.cut(result)                             # 默认方式分词，分词结果用空格隔开
             save_dict.append( {'file_name':ChildPath, 'content':result, 'type':name, 'keywords':' '.join(cutResult)})
     try:
-        bulk_import(es, index_name, save_dict, type_name='document')    #将数据批量导入elasticsearch
+        create_index(connect_Elasticsearch(), index_name)
+        bulk_import(es, index_name, save_dict)    #将数据批量导入elasticsearch
     except Exception as ex:
-        es.indices.delete(index_name)
+        # es.indices.delete(index_name)
         print(ex, ' ,' + index_name + ' has been deleted')
-    finally:
+    else:
         print('索引数据初始化完成')
 
 
@@ -67,8 +69,4 @@ def documents_Init(Data_BasePath, index_name = 'test'):
 
 
 
-
-
-if __name__ == '__main__':
-     documents_Init(Data_BasePath)
 

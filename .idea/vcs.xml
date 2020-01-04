@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/venv/Lib/site-packages/webpy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/测试样例" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/测试样例/R_Engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/测试样例/example-code" vcs="Git" />
+  </component>
+</project>

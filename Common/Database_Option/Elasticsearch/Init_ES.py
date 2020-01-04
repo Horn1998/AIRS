@@ -8,8 +8,6 @@ def connect_Elasticsearch():
     BasePath = os.path.dirname(os.path.abspath(__file__))
     with open(BasePath + r'\\package.json', 'r') as file:
         json_config = json.load(file)
-        print(json_config)
-        _es = None
         _es = Elasticsearch([{'host': json_config['elasticsearch']['host'],'port': json_config['elasticsearch']['port']}])
         if _es.ping():
             print('connect success')
@@ -97,9 +95,3 @@ def ES_search(es_object, index_name = 'test'):
 
 
 
-if __name__ == '__main__':
-    es_object = connect_Elasticsearch()
-
-    query = ES_search(es_object)
-    # es = create_index(es_object)
-    # store_record(es_object, 'test', '')

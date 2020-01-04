@@ -1,0 +1,13 @@
+2020-01-03 17:26:16,833 - ERROR - Model:BayesAlgorithm.py - Fun:__init__ - Message:'database' - Line:21
+2020-01-03 17:28:13,150 - ERROR - Model:BayesAlgorithm.py - Fun:__init__ - Message:'database' - Line:21
+2020-01-03 17:29:03,404 - ERROR - Model:BayesAlgorithm.py - Fun:getTestSpace - Message:[Errno 2] No such file or directory: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\test_set.dat' - Line:75
+2020-01-03 17:30:42,993 - ERROR - Model:BayesAlgorithm.py - Fun:__init__ - Message:get_log() takes 1 positional argument but 2 were given - Line:21
+2020-01-03 17:32:26,630 - ERROR - Model:BayesAlgorithm.py - Fun:__init__ - Message:log() missing 1 required positional argument: 'msg' - Line:21
+2020-01-03 17:37:33,335 - ERROR - Model:BayesAlgorithm.py - Fun:getTestSpace - Message:[Errno 2] No such file or directory: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\test_set.dat' - Line:75
+2020-01-03 19:39:47,046 - ERROR - Model:Document_Mongo.py - Fun:bunchSaveFile - Message:[WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\test体育/' - Line:53
+2020-01-03 19:44:06,622 - ERROR - Model:Document_Mongo.py - Fun:bunchSaveFile - Message:[WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\test体育/' - Line:57
+2020-01-03 19:46:17,517 - ERROR - Model:Document_Mongo.py - Fun:bunchSaveFile - Message:[Errno 13] Permission denied: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\data' - Line:57
+2020-01-03 20:02:38,175 - ERROR - Model:BayesAlgorithm.py - Fun:getTFIDFMat - Message:'outputfile' - Line:54
+2020-01-03 20:03:14,971 - ERROR - Model:BayesAlgorithm.py - Fun:getTFIDFMat - Message:[Errno 2] No such file or directory: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\tfidfspace.dat' - Line:54
+2020-01-03 20:05:24,163 - ERROR - Model:Document_Mongo.py - Fun:bunchSave - Message:[WinError 123] 文件名、目录名或卷标语法不正确。: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\tfidfspace.dat\\data' - Line:31
+2020-01-03 20:10:10,811 - ERROR - Model:Document_Mongo.py - Fun:bunchSave - Message:[WinError 123] 文件名、目录名或卷标语法不正确。: 'C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\C:\\Users\\Horn\\Desktop\\推荐系统\\测试样例\\test\\tfidfspace.dat\\data' - Line:31

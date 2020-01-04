@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92391005-b5f0-48c1-847f-ed45dccc1053" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Common/logger/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAnalysis/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAnalysis/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAnalysis/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GlobalVariable/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result_Processing/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result_Processing/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result_Processing/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UUData/EngineInit/TextProcessEngine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UUData/EngineInit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UUData/EngineInit/说明文档" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UUData/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UUData/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UUData/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/测试样例/协程样例/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/测试样例/协程样例/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Database_Option/Elasticsearch/Init_ES.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Database_Option/Elasticsearch/Init_ES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Database_Option/MongoDB/init_Mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Database_Option/MongoDB/init_Mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Text_Processing/TXTFile_Process.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Text_Processing/TXTFile_Process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/ModuleConfig/TextProcessingEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/ModuleConfig/TextProcessingEngine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAnalysis/Feature_Extraction/User_Portrait/DocumentsAnalysis/TF_IDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataAnalysis/Feature_Extraction/User_Portrait/DocumentsAnalysis/TF_IDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Child_Engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Child_Engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/TextProcessEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/TextProcessEngine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result_Processing/DocumentRP/BayesAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Result_Processing/DocumentRP/BayesAlgorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UUData/DBExport/Document_Mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/UUData/DBExport/Document_Mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UUData/DBImport/Documents_ES.py" beforeDir="false" afterPath="$PROJECT_DIR$/UUData/DBImport/Documents_ES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UUData/DBImport/Documents_Mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/UUData/DBImport/Documents_Mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/application.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/contrib/template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/debugerror.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/httpserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/py3helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/webapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpy/web/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/推荐系统/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/推荐系统/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/推荐系统/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/推荐系统/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试样例/R_Engine/Service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试样例/example-code/18-asyncio-py3.7/spinner_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试样例/example-code/18-asyncio-py3.7/spinner_asyncio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试样例/example-code/18-asyncio/spinner_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试样例/example-code/18-asyncio/spinner_asyncio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试样例/example-code/attic/dicts/test_transformdict.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试样例/example-code/attic/dicts/test_transformdict.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$Init_ES.coverage" NAME="Init_ES Coverage Results" MODIFIED="1574355717359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/Elasticsearch" />
+    <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1578019366004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/logger" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1578018533923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/logger" />
+    <SUITE FILE_PATH="coverage/$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1574665608391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$TextProcessEngine.coverage" NAME="TextProcessEngine Coverage Results" MODIFIED="1578038270844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UUData/EngineInit" />
+    <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1578102200072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$err.coverage" NAME="err Coverage Results" MODIFIED="1573656093256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pymysql" />
+    <SUITE FILE_PATH="coverage/$homework.coverage" NAME="homework Coverage Results" MODIFIED="1574988852292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$CharFinder.coverage" NAME="CharFinder Coverage Results" MODIFIED="1573895115898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$homework3.coverage" NAME="homework3 Coverage Results" MODIFIED="1574232456198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/机器学习之文本分类" />
+    <SUITE FILE_PATH="coverage/$TextProcessingEngine.coverage" NAME="TextProcessingEngine Coverage Results" MODIFIED="1574431910519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
+    <SUITE FILE_PATH="coverage/$Doctests_in_charfinder.coverage" NAME="Doctests in charfinder Coverage Results" MODIFIED="1574954491935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$Format_data.coverage" NAME="Format_data Coverage Results" MODIFIED="1574432741595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/Elasticsearch" />
+    <SUITE FILE_PATH="coverage/$Article_Mongo.coverage" NAME="Article_Mongo Coverage Results" MODIFIED="1574483120618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UUData/DBInit" />
+    <SUITE FILE_PATH="coverage/$Article_Index.coverage" NAME="Article_Index Coverage Results" MODIFIED="1574482149445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UUData/DBInit" />
+    <SUITE FILE_PATH="coverage/$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1574665603136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$Doctests_in_charfinder__1_.coverage" NAME="Doctests in charfinder (1) Coverage Results" MODIFIED="1574954525884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$tcp_charfinder.coverage" NAME="tcp_charfinder Coverage Results" MODIFIED="1574956247359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$init_Mongo.coverage" NAME="init_Mongo Coverage Results" MODIFIED="1578102715288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/Database_Option/MongoDB" />
+    <SUITE FILE_PATH="coverage/$BayesAlgorithm.coverage" NAME="BayesAlgorithm Coverage Results" MODIFIED="1578053574432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Result_Processing/DocumentRP" />
+    <SUITE FILE_PATH="coverage/$spinner_asyncio.coverage" NAME="spinner_asyncio Coverage Results" MODIFIED="1574844563203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/example-code/18-asyncio-py3.7" />
+    <SUITE FILE_PATH="coverage/$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1574091436038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$TF_IDF.coverage" NAME="TF_IDF Coverage Results" MODIFIED="1574234578679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalysis/TextAnalysis" />
+    <SUITE FILE_PATH="coverage/$Documents_Mongo.coverage" NAME="Documents_Mongo Coverage Results" MODIFIED="1574601881604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UUData/DBImport" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_TestLogFunc_test_divide.coverage" NAME="Unittests for test.TestLogFunc.test_divide Coverage Results" MODIFIED="1578018543384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/logger" />
+    <SUITE FILE_PATH="coverage/$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1574843961036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/协程样例" />
+    <SUITE FILE_PATH="coverage/$Document_Mongo.coverage" NAME="Document_Mongo Coverage Results" MODIFIED="1578051825274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UUData/DBExport" />
+    <SUITE FILE_PATH="coverage/$post.coverage" NAME="post Coverage Results" MODIFIED="1576682701622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/$Save_ToDatabase.coverage" NAME="Save_ToDatabase Coverage Results" MODIFIED="1573652086888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UUData/Data_Process" />
+    <SUITE FILE_PATH="coverage/$logger.coverage" NAME="logger Coverage Results" MODIFIED="1578017694512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/logger" />
+    <SUITE FILE_PATH="coverage/$spinner_asyncio__1_.coverage" NAME="spinner_asyncio (1) Coverage Results" MODIFIED="1574856810583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/example-code/18-asyncio" />
+    <SUITE FILE_PATH="coverage/$manage.coverage" NAME="manage Coverage Results" MODIFIED="1574668749841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Child_Engine.coverage" NAME="Child_Engine Coverage Results" MODIFIED="1578038786261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modules" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-736047015">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.122" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="4" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="4" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.28" value="3" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="json" value="3" />
+          <entry key="log" value="31" />
+          <entry key="maogai" value="1" />
+          <entry key="py" value="453" />
+          <entry key="requirement" value="2" />
+          <entry key="txt" value="34" />
+          <entry key="xmind" value="1" />
+          <entry key="开发文档" value="1" />
+          <entry key="用于多项式模型的朴素贝叶斯分类器" value="2" />
+          <entry key="说明文档" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="89" />
+          <entry key="Python" value="453" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="52" />
+          <entry key="gitignore" value="18" />
+          <entry key="json" value="147" />
+          <entry key="log" value="5" />
+          <entry key="maogai" value="4457" />
+          <entry key="py" value="41509" />
+          <entry key="requirement" value="20" />
+          <entry key="txt" value="370" />
+          <entry key="开发文档" value="27" />
+          <entry key="用于多项式模型的朴素贝叶斯分类器" value="231" />
+          <entry key="说明文档" value="873" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="147" />
+          <entry key="PLAIN_TEXT" value="6053" />
+          <entry key="Python" value="41509" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+                <element signature="e#869#1928#0" />
+                <element signature="e#524#1058#0" />
+                <marker date="1578107047027" expanded="true" signature="502:2110" ph="..." />
+                <marker date="1578107047027" expanded="true" signature="814:2110" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Common/Elasticsearch/Format_data.py" />
+        <option value="$PROJECT_DIR$/Common/MongoDB/init_Mongo.py" />
+        <option value="$PROJECT_DIR$/UUData/DBInit/Article_Mongo.py" />
+        <option value="$PROJECT_DIR$/UUData/DBInit/Article_ES.py" />
+        <option value="$PROJECT_DIR$/UUData/DBImport/Article_Mongo.py" />
+        <option value="$PROJECT_DIR$/UUData/DBImport/Article_ES.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/UUData/说明文档" />
+        <option value="$PROJECT_DIR$/测试样例/机器学习之文本分类/stop/stopword.txt" />
+        <option value="$PROJECT_DIR$/GlobalVariable/说明文档" />
+        <option value="$PROJECT_DIR$/测试样例/机器学习之文本分类/homework3.py" />
+        <option value="$PROJECT_DIR$/测试样例/test.py" />
+        <option value="$PROJECT_DIR$/测试样例/test3.py" />
+        <option value="$PROJECT_DIR$/测试样例/test2.py" />
+        <option value="$PROJECT_DIR$/UUData/EngineInit/说明文档" />
+        <option value="$PROJECT_DIR$/Common/Text_Processing/TXTFile_Process.py" />
+        <option value="$PROJECT_DIR$/测试样例/example-code/18-asyncio-py3.7/spinner_asyncio.py" />
+        <option value="$PROJECT_DIR$/测试样例/example-code/18-asyncio/spinner_asyncio.py" />
+        <option value="$PROJECT_DIR$/测试样例/协程样例/test1.py" />
+        <option value="$PROJECT_DIR$/测试样例/协程样例/test.py" />
+        <option value="$PROJECT_DIR$/测试样例/test_charfinder.py" />
+        <option value="$PROJECT_DIR$/测试样例/tcp_charfinder.py" />
+        <option value="$PROJECT_DIR$/测试样例/requirements.txt" />
+        <option value="$PROJECT_DIR$/测试样例/homework.py" />
+        <option value="$PROJECT_DIR$/测试样例/post.py" />
+        <option value="$PROJECT_DIR$/maogai" />
+        <option value="$PROJECT_DIR$/UUData/urls.py" />
+        <option value="$PROJECT_DIR$/UUData/views.py" />
+        <option value="$PROJECT_DIR$/UUData/test.py" />
+        <option value="$PROJECT_DIR$/Common/log/log.py" />
+        <option value="$PROJECT_DIR$/DataSet/log.py" />
+        <option value="$PROJECT_DIR$/Common/logger/var/log.log" />
+        <option value="$PROJECT_DIR$/Common/logger/test.py" />
+        <option value="$PROJECT_DIR$/UUData/DBImport/Documents_Mongo.py" />
+        <option value="$PROJECT_DIR$/UUData/DBImport/Documents_ES.py" />
+        <option value="$PROJECT_DIR$/Result_Processing/DocumentRP/logs/log.log" />
+        <option value="$PROJECT_DIR$/Common/logger/logger.py" />
+        <option value="$PROJECT_DIR$/Config/ModuleConfig/TextProcessingEngine.py" />
+        <option value="$PROJECT_DIR$/DataAnalysis/Feature_Extraction/User_Portrait/DocumentsAnalysis/TF_IDF.py" />
+        <option value="$PROJECT_DIR$/UUData/DBExport/Document_Mongo.py" />
+        <option value="$PROJECT_DIR$/推荐系统/settings.py" />
+        <option value="$PROJECT_DIR$/Modules/Child_Engine.py" />
+        <option value="$PROJECT_DIR$/Builder.py" />
+        <option value="$PROJECT_DIR$/Common/Database_Option/MongoDB/init_Mongo.py" />
+        <option value="$PROJECT_DIR$/UUData/EngineInit/TextProcessEngine.py" />
+        <option value="$PROJECT_DIR$/Modules/TextProcessEngine.py" />
+        <option value="$PROJECT_DIR$/Result_Processing/DocumentRP/BayesAlgorithm.py" />
+        <option value="$PROJECT_DIR$/Core.py" />
+        <option value="$PROJECT_DIR$/Common/Database_Option/Elasticsearch/Init_ES.py" />
+        <option value="$PROJECT_DIR$/推荐系统/urls.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Common/Database_Option/Elasticsearch/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="955" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="推荐系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推荐系统" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="，。&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/王祖浩学习集合/算法谜题" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Horn\Desktop\推荐系统\Common\logger\var" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\测试样例" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\venv\Lib\site-packages" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\测试样例\机器学习之文本分类" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\资料集合" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Horn\Desktop\推荐系统\测试样例\test" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\Common\logger" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\Common" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\Config" />
+      <recent name="C:\Users\Horn\Desktop\推荐系统\DataAnalysis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.init_Mongo">
+    <configuration name="BayesAlgorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="推荐系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Result_Processing/DocumentRP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Result_Processing/DocumentRP/BayesAlgorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Child_Engine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="推荐系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modules/Child_Engine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Document_Mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="推荐系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UUData/DBExport" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UUData/DBExport/Document_Mongo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init_Mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="推荐系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common/Database_Option/MongoDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/Database_Option/MongoDB/init_Mongo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="推荐系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="推荐系统" type="Python.DjangoServer" factoryName="Django server">
+      <module name="推荐系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.推荐系统" />
+      <item itemvalue="Python.Child_Engine" />
+      <item itemvalue="Python.init_Mongo" />
+      <item itemvalue="Python.Document_Mongo" />
+      <item itemvalue="Python.BayesAlgorithm" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.init_Mongo" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.BayesAlgorithm" />
+        <item itemvalue="Python.Document_Mongo" />
+        <item itemvalue="Python.Child_Engine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92391005-b5f0-48c1-847f-ed45dccc1053" name="Default Changelist" comment="" />
+      <created>1573627429283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573627429283</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_charfinder - 2019.11.28 at 23h 21m 34s.xml">
+      <configuration name="Doctests in charfinder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_charfinder_(1) - 2019.11.28 at 23h 21m 40s.xml">
+      <configuration name="Doctests in charfinder (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_charfinder_(1) - 2019.11.28 at 23h 21m 46s.xml">
+      <configuration name="Doctests in charfinder (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_charfinder_(1) - 2019.11.28 at 23h 22m 03s.xml">
+      <configuration name="Doctests in charfinder (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_charfinder_(1) - 2019.11.28 at 23h 22m 07s.xml">
+      <configuration name="Doctests in charfinder (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2020.01.03 at 10h 26m 56s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2020.01.03 at 10h 27m 52s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2020.01.03 at 10h 28m 16s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2020.01.03 at 10h 28m 54s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestLogFunc_test_divide - 2020.01.03 at 10h 29m 04s.xml">
+      <configuration name="Unittests for test.TestLogFunc.test_divide" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20040214" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30878186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40651557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" visible="true" weight="0.2776204" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.37265417" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Common/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUData/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Processing/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GlobalVariable/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAnalysis/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/log.py" />
+    <entry file="file://$PROJECT_DIR$/DataSet/log" />
+    <entry file="file://$PROJECT_DIR$/Common/logger/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/data/757.csv" />
+    <entry file="file://$PROJECT_DIR$/Common/logger/var/log.log" />
+    <entry file="file://$PROJECT_DIR$/UUData/DBExport/var/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/var/log.log" />
+    <entry file="file://$PROJECT_DIR$/UUData/DBImport/Documents_Mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUData/DBImport/Documents_ES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Processing/DocumentRP/logs/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/logger/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Processing/DocumentRP/logs/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUData/说明文档">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/test/体育/1338.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/test/女性/955.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/data/体育/2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/data/体育/4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/data/体育/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test/segResult/体育/1339.txt" />
+    <entry file="file://$PROJECT_DIR$/测试样例/test/segResult/体育/1340.txt" />
+    <entry file="file://$PROJECT_DIR$/测试样例/test/segResult/体育/1338.txt" />
+    <entry file="file://$PROJECT_DIR$/测试样例/test/segResult/体育/1342.txt" />
+    <entry file="file://$PROJECT_DIR$/Common/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAnalysis/Feature_Extraction/User_Portrait/DocumentsAnalysis/TF_IDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUData/DBExport/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUData/DBExport/Document_Mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUData/EngineInit/TextProcessEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/backend_gtk3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="568" column="37" selection-start-line="568" selection-start-column="37" selection-end-line="568" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Processing/DocumentRP/BayesAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Child_Engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/TextProcessEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推荐系统/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Text_Processing/TXTFile_Process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Database_Option/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Database_Option/MongoDB/init_Mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/ModuleConfig/TextProcessingEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Database_Option/Elasticsearch/Init_ES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#612#1601#0" />
+            <element signature="e#1654#1846#0" />
+            <element signature="e#2234#2618#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推荐系统/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#869#1928#0" />
+            <element signature="e#524#1058#0" />
+            <marker date="1578107047027" expanded="true" signature="502:2110" ph="..." />
+            <marker date="1578107047027" expanded="true" signature="814:2110" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -2,7 +2,7 @@
 from Common.Text_Processing.TXTFile_Process import readBunch, writeBunch
 from sklearn.feature_extraction.text import  TfidfTransformer #TF_IDF向量转换类
 from sklearn.feature_extraction.text import TfidfVectorizer   #TF_IDF向量生成类
-import Common.Text_Processing.File_Process as fp
+import Common.Text_Processing.TXTFile_Process as fp
 from sklearn.datasets.base import Bunch
 import pickle  #序列化
 import jieba
@@ -51,16 +51,6 @@ def bunchSave(inputFile, outputFile):
         #file:文件名称。
         #protocol：序列化使用的协议。如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOCOL，则使用最高的协议版本
     print('finish bunch save + ', time.time(),  ', use time :' + str(start - time.time()))
-
-
-
-#得到停用词
-# def getStopWord(inputFile):
-#     stopWordList = fp.readFileStop(inputFile).splitlines()
-#     return stopWordList
-
-
-
 
 
 

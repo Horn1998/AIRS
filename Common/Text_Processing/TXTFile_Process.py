@@ -27,6 +27,14 @@ def readBunch(path):
     return bunch
 
 
+
+#将对象转化为字节流保存
+def writeBunch(path, bunchFile):
+    with open(path, 'wb') as file:
+        pickle.dump(bunchFile, file)
+
+
+
 def TXT_Process(Data_BasePase) -> list:
     '''
     :param Data_BasePase: 总文件夹路径

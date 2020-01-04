@@ -1,14 +1,25 @@
+from Common.logger.logger import get_log
 '''
 文本推荐引擎
 说明：
 '''
 from Result_Processing.DocumentRP.BayesAlgorithm import TF_IDF_Module
-class TF_IDF_Module:
-    module_dict = {
-        "TF-IDF": TF_IDF_Module
+
+module_dict = {
+        0: TF_IDF_Module,
+        1: ""
     }
 
-#
+
+def get_Module(tag, paras):
+    try:
+        module = module_dict[tag]
+        return module(database = paras['database'], user_id = paras['user_id'])
+    except Exception as ex:
+        get_log().error(ex)
+
+
+
 # #种类预测模块接口
 # class ITypePredict:
 #     def TypePredict(self):
